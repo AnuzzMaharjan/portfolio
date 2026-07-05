@@ -24,7 +24,7 @@ export default function App() {
                         ~/anuj-maharjan $ whoami<span className="cursor" aria-hidden="true" />
                     </div>
                     <h1 className="text-3xl md:text-4xl leading-tight mb-8">
-                        Anuj builds for the web with JavaScript &amp; PHP.
+                        Build for the web with JavaScript &amp; PHP.
                     </h1>
                     <p className="text-lg text-subtle max-w-xl leading-relaxed">
                         Software developer working daily with Node, vanilla JS, and
