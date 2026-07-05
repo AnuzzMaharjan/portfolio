@@ -1,0 +1,36 @@
+language proficiency ranking
+- js (vanilla, node, ts) -> 8/10 (currently using in work)
+- php (ci, core) -> 8/10 (currently using ci in work. core used to use in previous)
+- react js -> 5/10 (side projects and limited or low use in work)
+- rust -> 4/10 (learning multiple begineer projects) currently have one project for final semester bachelors degree
+- vue js -> 3/10 (basic usages, some personal project with cdn)
+- next js/ elysia js(bun) -> 2/10 (basics)
+
+
+github: https://github.com/AnuzzMaharjan
+public projects:
+- expense tracking system (project for 6th sem) [elysia.js(ts), bun, vue.js(cdn), zod, mongodb]
+- digital clock [vanilla]
+- hrms (project for 4th sem) [php, mysql]
+- frs (ecommerce project for 5th sem) [MERN stack]
+- other js basic projects
+
+projects that are in private:
+- lan_drop: final sem project based on rust. uses raw tcp streams, udp packets, and raw bytes for file transfer in lan with simple to no config. cli based with simple commands. currently not optimal (to meet university requirements added not very effective algorithms). first major project. uses concepts like mpsc, mutex, threads.
+- binary_tree: simple implementation on rust.
+- mini_vending_machine: simple begineer project on rust for basics.
+- student_grade_tracker: simple begineer project on rust for basics.
+- phone_book: simple begineer project on rust for basics.
+- temp_converter: simple begineer project on rust for basics.
+- bank_simulator: simple begineer project on rust for basics.
+- player_control: simple begineer project on rust for basics.
+
+
+what i have used so far:
+- db: mysql, postgres, mongodb
+- cache: redis
+- docker
+
+others:
+- bootstrap, tailwindcss, jquery, ajax
+- c, java, c# (included in bachelors degree syllabus)
