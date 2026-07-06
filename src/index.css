@@ -216,25 +216,11 @@ a:focus-visible {
   color: var(--accent);
 }
 
-/* Skill bars */
+/* Skill list */
 .skill-list {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-}
-
-.skill-bar {
-  letter-spacing: 0.1em;
-  line-height: 1;
-  user-select: none;
-}
-
-.skill-bar-fill {
-  color: var(--accent);
-}
-
-.skill-bar-rest {
-  color: var(--border-color);
 }
 
 /* Private repo badge */

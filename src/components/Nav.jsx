@@ -8,7 +8,7 @@ export default function Nav() {
             <div className="container nav-inner">
                 <a href="#top" className="nav-brand text-sm">anuj@web:~$</a>
                 <div className="flex items-center gap-5 text-xs">
-                    <a href="#journey">journey</a>
+                    <a href="#experience">experience</a>
                     <a href="#projects">projects</a>
                     <a href="#skills">skills</a>
                     <a href={GITHUB_URL} target="_blank" rel="noreferrer" aria-label="GitHub" className="flex items-center"><GithubIcon size={15} /></a>

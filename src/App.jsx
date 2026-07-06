@@ -1,10 +1,11 @@
 import { Mail } from 'lucide-react';
-import { EMAIL, GITHUB_URL, LINKEDIN_URL, journey, projects, skills, stack } from './data.js';
+import { EMAIL, GITHUB_URL, LINKEDIN_URL, education, experience, projects, skills, stack } from './data.js';
 import { GithubIcon, LinkedinIcon } from './components/Icons.jsx';
 import Nav from './components/Nav.jsx';
 import Section from './components/Section.jsx';
 import SkillBar from './components/SkillBar.jsx';
 import ProjectItem from './components/ProjectItem.jsx';
+import TimelineItem from './components/TimelineItem.jsx';
 
 /*
   Minimalist Monospace Portfolio
@@ -24,7 +25,7 @@ export default function App() {
                         ~/anuj-maharjan $ whoami<span className="cursor" aria-hidden="true" />
                     </div>
                     <h1 className="text-3xl md:text-4xl leading-tight mb-8">
-                        Build for the web with JavaScript &amp; PHP.
+                        Anuj Maharjan
                     </h1>
                     <p className="text-lg text-subtle max-w-xl leading-relaxed">
                         Software developer working daily with Node, vanilla JS, and
@@ -39,17 +40,14 @@ export default function App() {
                     </div>
                 </header>
 
-                {/* EXPERIENCE / EDUCATION */}
-                <Section id="journey" title="Journey">
-                    {journey.map((j) => (
-                        <div key={j.title} className="mb-8">
-                            <div className="flex-between mb-2">
-                                <h3 className="font-medium text-lg">{j.title}</h3>
-                                <span className="text-subtle text-sm">{j.period}</span>
-                            </div>
-                            <p className="text-subtle text-sm max-w-lg">{j.body}</p>
-                        </div>
-                    ))}
+                {/* EXPERIENCE */}
+                <Section id="experience" title="Experience">
+                    {experience.map((j) => <TimelineItem key={j.title} {...j} />)}
+                </Section>
+
+                {/* EDUCATION */}
+                <Section id="education" title="Education">
+                    {education.map((j) => <TimelineItem key={j.title} {...j} />)}
                 </Section>
 
                 {/* PROJECTS */}
@@ -70,7 +68,7 @@ export default function App() {
                 </Section>
 
                 {/* SKILLS */}
-                <Section id="skills" title="Proficiency">
+                <Section id="skills" title="Skills">
                     <div className="skill-list">
                         {skills.map((s) => <SkillBar key={s.name} {...s} />)}
                     </div>
