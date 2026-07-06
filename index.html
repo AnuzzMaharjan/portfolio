@@ -13,20 +13,42 @@
     <meta property="og:title" content="Anuj Maharjan — Software Developer" />
     <meta property="og:description" content="Software developer working with Node, JavaScript, and PHP. Learning Rust." />
     <meta property="og:site_name" content="Anuj Maharjan" />
-    <meta name="twitter:card" content="summary" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:image" content="https://anuj-maharjan.com.np/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Anuj Maharjan — Software Developer. Node, JavaScript, PHP, learning Rust." />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Anuj Maharjan — Software Developer" />
     <meta name="twitter:description" content="Software developer working with Node, JavaScript, and PHP. Learning Rust." />
+    <meta name="twitter:image" content="https://anuj-maharjan.com.np/og.png" />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "Anuj Maharjan",
-        "jobTitle": "Software Developer",
-        "url": "https://anuj-maharjan.com.np/",
-        "email": "mailto:anuzz@anuj-maharjan.com.np",
-        "sameAs": [
-          "https://github.com/AnuzzMaharjan",
-          "https://www.linkedin.com/in/anuj-maharjan-85a4032a5/"
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://anuj-maharjan.com.np/#person",
+            "name": "Anuj Maharjan",
+            "jobTitle": "Software Developer",
+            "url": "https://anuj-maharjan.com.np/",
+            "image": "https://anuj-maharjan.com.np/og.png",
+            "email": "mailto:anuzz@anuj-maharjan.com.np",
+            "knowsAbout": ["JavaScript", "Node.js", "PHP", "CodeIgniter", "React", "Rust", "MySQL", "PostgreSQL", "MongoDB"],
+            "sameAs": [
+              "https://github.com/AnuzzMaharjan",
+              "https://www.linkedin.com/in/anuj-maharjan-85a4032a5/"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://anuj-maharjan.com.np/#website",
+            "url": "https://anuj-maharjan.com.np/",
+            "name": "Anuj Maharjan — Software Developer",
+            "description": "Portfolio of Anuj Maharjan, software developer working with Node, JavaScript, and PHP. Learning Rust.",
+            "inLanguage": "en",
+            "author": { "@id": "https://anuj-maharjan.com.np/#person" }
+          }
         ]
       }
     </script>
