@@ -7,24 +7,21 @@ export const EMAIL = 'anuzz@anuj-maharjan.com.np';
 export const experience = [
     {
         title: 'Software Developer',
-        period: 'Present',
+        company: 'Kalash Services Pvt. Ltd.',
+        period: 'Mar 2025 — Present',
         body: 'Building and maintaining web applications with Node, vanilla JavaScript, and CodeIgniter (PHP).',
     },
     {
         title: 'Web Developer',
+        company: 'Longtail e-Media Pvt. Ltd.',
+        period: 'Jul 2024 — Mar 2025',
         body: 'Built and maintained websites with HTML, CSS, JavaScript, jQuery, and core PHP.',
     },
     {
         title: 'MERN Stack Intern',
+        company: 'AGI Infotech',
+        period: 'From Jul 2023 · 90 working days',
         body: 'Internship building web applications on the MERN stack — MongoDB, Express, React, and Node.',
-    },
-];
-
-export const education = [
-    {
-        title: 'BCA — Bachelor of Computer Applications',
-        period: 'Final Semester · Ongoing',
-        body: 'Currently in the final semester. Final year project: lan_drop — a Rust-based LAN file-transfer tool built on raw TCP/UDP.',
     },
 ];
 

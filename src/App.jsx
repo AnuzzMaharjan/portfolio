@@ -1,5 +1,5 @@
 import { Mail } from 'lucide-react';
-import { EMAIL, GITHUB_URL, LINKEDIN_URL, education, experience, projects, skills, stack } from './data.js';
+import { EMAIL, GITHUB_URL, LINKEDIN_URL, experience, projects, skills, stack } from './data.js';
 import { GithubIcon, LinkedinIcon } from './components/Icons.jsx';
 import Nav from './components/Nav.jsx';
 import Section from './components/Section.jsx';
@@ -45,11 +45,6 @@ export default function App() {
                     {experience.map((j) => <TimelineItem key={j.title} {...j} />)}
                 </Section>
 
-                {/* EDUCATION */}
-                <Section id="education" title="Education">
-                    {education.map((j) => <TimelineItem key={j.title} {...j} />)}
-                </Section>
-
                 {/* PROJECTS */}
                 <Section id="projects" title="Projects">
                     {projects.map((p) => (
@@ -89,7 +84,7 @@ export default function App() {
                 {/* CONTACT */}
                 <footer id="contact" className="section-spacer mb-0 border-t pt-20">
                     <h2 className="text-2xl mb-8">Open to interesting problems.</h2>
-                    <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 text-sm">
+                    <div className="footer-grid text-sm">
                         <div>
                             <div className="text-subtle mb-2">Social</div>
                             <div className="flex flex-col gap-2">
@@ -98,8 +93,15 @@ export default function App() {
                             </div>
                         </div>
                         <div>
-                            <div className="text-subtle mb-2">Contact</div>
+                            <div className="text-subtle mb-2">Email</div>
                             <a href={`mailto:${EMAIL}`} className="w-fit">{EMAIL}</a>
+                        </div>
+                        <div>
+                            <div className="text-subtle mb-2">Phone</div>
+                            <div className="flex flex-col gap-2">
+                                <a href="tel:+9779767473105" className="w-fit">+977 9767473105</a>
+                                <a href="tel:+9779808711718" className="w-fit">+977 9808711718</a>
+                            </div>
                         </div>
                     </div>
                     <div className="mt-20 flex-between text-xs text-subtle">
