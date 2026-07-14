@@ -96,13 +96,6 @@ export default function App() {
                             <div className="text-subtle mb-2">Email</div>
                             <a href={`mailto:${EMAIL}`} className="w-fit">{EMAIL}</a>
                         </div>
-                        <div>
-                            <div className="text-subtle mb-2">Phone</div>
-                            <div className="flex flex-col gap-2">
-                                <a href="tel:+9779767473105" className="w-fit">+977 9767473105</a>
-                                <a href="tel:+9779808711718" className="w-fit">+977 9808711718</a>
-                            </div>
-                        </div>
                     </div>
                     <div className="mt-20 flex-between text-xs text-subtle">
                         <span>© {new Date().getFullYear()} Anuj Maharjan. Typeset in JetBrains Mono.</span>
