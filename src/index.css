@@ -202,9 +202,8 @@ a:focus-visible {
     transition: none;
   }
 
-  .cursor {
-    animation: none;
-  }
+  /* .cursor keeps blinking here by choice — it is small, decorative,
+     and aria-hidden, so it is exempt from the reduced-motion guard. */
 }
 
 /* Project hover */
