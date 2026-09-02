@@ -216,6 +216,22 @@ a:focus-visible {
   color: var(--accent);
 }
 
+/* Experience spec rows */
+.timeline-specs {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 0.35rem 1.5rem;
+  line-height: 1.5;
+}
+
+.timeline-specs dt {
+  grid-column: 1;
+}
+
+.timeline-specs dd {
+  grid-column: 2;
+}
+
 /* Skill list */
 .skill-list {
   display: flex;

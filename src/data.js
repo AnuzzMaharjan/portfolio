@@ -6,10 +6,16 @@ export const EMAIL = 'anuzz@anuj-maharjan.com.np';
 
 export const experience = [
     {
-        title: 'Software Developer',
+        title: 'Backend Engineer',
         company: 'Kalash Services Pvt. Ltd.',
         period: 'Mar 2025 — Present',
-        body: 'Building and maintaining web applications with Node, vanilla JavaScript, and CodeIgniter (PHP).',
+        specs: [
+            { label: 'arch', value: 'greenfield real-time Node.js backend as a modular monolith, split for future service extraction' },
+            { label: 'core', value: 'layered core library — database resources, auth, error handling' },
+            { label: 'data', value: 'PostgreSQL, MongoDB, MySQL, Redis' },
+            { label: 'infra', value: 'Docker, Keycloak, OpenTelemetry observability' },
+            { label: 'legacy', value: 'CodeIgniter/PHP maintenance; high-concurrency features migrating to Node/TypeScript' },
+        ],
     },
     {
         title: 'Web Developer',
@@ -71,25 +77,24 @@ export const projects = [
         tech: ['Vanilla JS'],
     },
     {
-        title: 'binary_tree',
-        private: true,
-        description:
-            'A from-scratch binary tree implementation in Rust — ownership and recursive data structures without the training wheels.',
-        tech: ['Rust', 'Data Structures'],
+        title: 'friendship rental service',
+        link: 'https://friendshiprentalservice.com.np',
+        description: 'Landing page for a rental service, built in React.',
+        tech: ['React'],
     },
     {
         title: 'rust fundamentals series',
         private: true,
         description:
-            'A run of small projects built while learning the language: a vending machine, phone book, bank simulator, student grade tracker, temperature converter, and a player-control exercise.',
-        tech: ['Rust', 'CLI'],
+            'A run of small projects built while learning the language: a from-scratch binary tree, a vending machine, phone book, bank simulator, student grade tracker, temperature converter, and a player-control exercise.',
+        tech: ['Rust', 'CLI', 'Data Structures'],
     },
 ];
 
 export const stack = [
     { label: 'Databases', items: 'MySQL, PostgreSQL, MongoDB' },
     { label: 'Cache', items: 'Redis' },
-    { label: 'Tooling', items: 'Docker, Git' },
+    { label: 'Tooling', items: 'Docker, Git, Keycloak, OpenTelemetry' },
     { label: 'Frontend Utilities', items: 'Tailwind CSS, Bootstrap, jQuery, AJAX' },
     { label: 'From the Degree', items: 'C, Java, C#' },
     { label: 'Currently Learning', items: 'Rust, systems programming' },
